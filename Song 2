@@ -1,0 +1,63 @@
+from rich import print
+from time import sleep
+
+def printLyrics():
+    lines = [
+        ("My to, my to, my to, co najlepsze", 0.03),
+        ("Wozi mnie AMG, gdy je wezwę", 0.03),
+        ("Ona chce od razu mnie, jak się odezwę", 0.03),
+        ("Uuu, ajajaj, tego nie zagrają w Esce", 0.03),
+
+        ("My to, my to, my to, co najlepsze", 0.03),
+        ("Wozi mnie AMG, gdy je wezwę", 0.03),
+        ("Ona chce od razu mnie, jak się odezwę", 0.03),
+        ("Uuu, ajajaj, tego nie zagrają w Esce (MTS)", 0.03),
+
+        ("My to sutenerzy, spece od kradzieży", 0.03),
+        ("Coś jest niewiarygodne, zrobimy tak, byś uwierzył", 0.03),
+        ("Wszyscy na bombie, sami saperzy", 0.03),
+        ("Sobie zatrąbię, jak towar leży", 0.03),
+        ("Grzeczni chłopcy to są twoi idole", 0.03),
+        ("Jak wbijam na salon, zrywam żyrandole", 0.03),
+        ("Twoje koleżanki o trzy groszy pierdolę", 0.03),
+        ("Te same, które chcą nagrywać z nami pornole", 0.03),
+
+        ("My to, my to, my to, co najlepsze", 0.03),
+        ("Wozi mnie AMG, gdy je wezwę", 0.03),
+        ("Ona chce od razu mnie, jak się odezwę", 0.03),
+        ("Uuu, ajajaj, tego nie zagrają w Esce", 0.03),
+
+        ("My to, my to, my to, co najlepsze", 0.03),
+        ("Wozi mnie AMG, gdy je wezwę", 0.03),
+        ("Ona chce od razu mnie, jak się odezwę", 0.03),
+        ("Uuu, ajajaj, tego nie zagrają w Esce (MTS)", 0.03),
+
+        ("My to super heros, miasto się paliło", 0.03),
+        ("Po ostatnim koncercie nikogo to nie dziwiło", 0.03),
+        ("Odjeżdżam limuzyną", 0.03),
+        ("Po dobrym tańcu byłem z twoją dziewczyną", 0.03),
+        ("Bo mi pilnowała łańcuch", 0.03),
+        ("Podjeżdża dziesięć chłopa w pięciu AMG", 0.03),
+        ("Co nimi dobrze miota w lato jak się (?) śnieg, MTS", 0.03),
+        ("Biznes sam się nakręca, jak mechanizm Rolexa", 0.03),
+        ("Ona po piątej rundzie chce, bym przestał", 0.03),
+        ("A ja się rozkręcam", 0.03),
+
+        ("My to, my to, my to, co najlepsze", 0.03),
+        ("Wozi mnie AMG, gdy je wezwę", 0.03),
+        ("Ona chce od razu mnie, jak się odezwę", 0.03),
+        ("Uuu, ajajaj, tego nie zagrają w Esce", 0.03),
+
+        ("My to, my to, my to, co najlepsze", 0.03),
+        ("Wozi mnie AMG, gdy je wezwę", 0.03),
+        ("Ona chce od razu mnie, jak się odezwę", 0.03),
+        ("Uuu, ajajaj, tego nie zagrają w Esce", 0.03),
+    ]
+    
+    for text, delay in lines:
+        for char in text:
+            print(char, end='', flush=True)
+            sleep(delay)
+        print()
+
+printLyrics()
